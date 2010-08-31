@@ -29,7 +29,7 @@ when you contribute to my code, please follow these rules:
 
 * Use empty lines to break up a long method into logical paragraphs.
 
-* Keep lines fewer than 80 characters.
+* Keep lines fewer than 80 characters as much as possible.
 
 * Strip trailing whitespace.
 
@@ -41,6 +41,8 @@ when you contribute to my code, please follow these rules:
 * Never use for, unless you exactly know why.
 
 * Never use then, except in case statements.
+
+* Never use if not. Use unless.
 
 * Use when x then ... for one-line cases.
 
@@ -108,8 +110,6 @@ when you contribute to my code, please follow these rules:
 * Add "global" methods to Kernel (if you have to) and make them private.
 
 * Avoid alias when alias_method will do.
-
-* Always freeze objects assigned to constants.
 
 * Use OptionParser for parsing complex command line options and
   ruby -s for trivial command line options.
